@@ -79,3 +79,5 @@ elif 30 < age < 40 or 120 < weight < 50:
     print(name, surname, age, 'год', weight, 'кг, - следует заняться собой!')
 elif 40 < age or 120 < weight < 50:
     print(name, surname, age, 'год', weight, 'кг, - следует обратится к врачу!')
+else:
+print('Все очень запущено!')
