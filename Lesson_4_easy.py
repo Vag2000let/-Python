@@ -14,9 +14,9 @@ print(new_lis)
 # Даны два списка фруктов.
 # Получить список фруктов, присутствующих в обоих исходных списках.
 
-fruits_1 = ['apples', 'bananas', 'kiwi']
-fruits_2 = ['grape', 'apricot', 'melow']
-fruits_3 = [f for f in fruits_1 + fruits_2]
+fruits_1 = ['apricot', 'melow', 'apples', 'bananas', 'kiwi']
+fruits_2 = ['grape', 'apricot', 'melow', 'bananas', 'kiwi']
+fruits_3 = [f for f in fruits_1 if f in fruits_2]
 print(fruits_3)
 
 # Задание-3:
